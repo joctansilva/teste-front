@@ -16,12 +16,9 @@
       <img src="assets/image1.png" alt="Imagem 1" class="image">
       <div class="text">
         <h2>Título</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis nunc neque. Sed suscipit non ipsum eget
+          consequat. Aenean laoreet tellus lorem, non scelerisque tellus eleifend nec. Nulla dictum libero a velit
+          rutrum tincidunt ac ac elit. Vivamus vulputate cursus nisi, non gravida eros dignissim a. 
         </p>
       </div>
     </div>
@@ -29,16 +26,26 @@
       <img src="assets/image2.png" alt="Imagem 2" class="image">
       <div class="text">
         <h2>Subtitulo</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+        <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis nunc neque. Sed suscipit non ipsum eget
+          consequat. Aenean laoreet tellus lorem, non scelerisque tellus eleifend nec. Nulla dictum libero a velit
+          rutrum tincidunt ac ac elit. Vivamus vulputate cursus nisi, non gravida eros dignissim a. 
         </p>
       </div>
     </div>
-    <button class="button">Botao que abre popup</button>
   </div>
+  <button class="button" id="openPopupButton">Botao que abre popup</button>
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="closePopup" class="close-button">&times;</span>
+      <h2>Imagens API</h2>
+      <div class="api-image" id="apiImage">
+        <!-- Imagem vinda da API -->
+        <img id="imageFromAPI" src="" alt="Imagem da API" />
+      </div>
+      <button id="updateImageButton" class="button green-button">Botão atualizar</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
